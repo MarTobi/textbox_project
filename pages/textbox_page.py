@@ -20,7 +20,7 @@ class TextBox_Page(BasePage):
         created_email = self.element_is_visible(self.locators.result_email).text.split(':')[1]
         created_current_address = self.element_is_visible(self.locators.result_current_address).text.split(':')[1]
         created_permanent_address = self.element_is_visible(self.locators.result_permanent_address).text.split(':')[1]
-        self.make_screenshots()
+        # self.make_screenshots()
         self.check_value(full_name, created_full_name)
         self.check_value(email, created_email)
         self.check_value(current_address, created_current_address)
