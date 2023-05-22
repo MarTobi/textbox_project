@@ -1,9 +1,8 @@
-from selenium.common import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait as wait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
 import datetime
-import time
+
 
 
 class BasePage:

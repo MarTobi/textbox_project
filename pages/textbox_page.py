@@ -1,7 +1,3 @@
-import time
-
-from selenium.webdriver import Keys
-
 from locators.textbox_locators import Text_Box_Locators
 from pages.base_page import BasePage
 

@@ -1,4 +1,3 @@
-import pytest
 from pages.textbox_page import TextBox_Page
 
 
