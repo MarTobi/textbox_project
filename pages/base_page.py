@@ -14,6 +14,7 @@ class BasePage:
         """"Метод для открытия определенной страницы"""
         self.driver.get(self.url)
 
+
     def make_screenshots(self):
         """"Метод для создания скриншота на странице"""
         current_date = datetime.datetime.utcnow().strftime("%Y.%m.%d.%H.%M.%S")
